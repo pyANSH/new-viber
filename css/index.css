@@ -22,8 +22,8 @@
  padding: 1rem 2rem;   
 
 }
-.navHeading{
-
+.navHeading img{
+width: 60%;
 }
 .nav {
     display: flex;
