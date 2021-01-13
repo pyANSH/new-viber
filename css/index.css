@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-header{
+    display: flex;
+    justify-content: right;
+    background-color: black;
+}
+#top-header a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.nav2{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 1rem 2rem;   
+
+}
+.navHeading{
+
+}
+.nav {
+    display: flex;
+}
+
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    padding: 1rem;
+    text-decoration: none;
+color: black;
+}
+.nav button{
+    border: none;
+    margin: -1rem 0;
+    padding:0.5rem 1rem ;
+}
+.banner{
+    background: url('https://images.unsplash.com/photo-1604231252112-4145334ea577?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8b2xhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')no-repeat center center/cover;
+    padding-bottom: 5rem;
+}
+.bannerPara{
+    text-align: center;
+    margin: 3rem 0;
+    color: white;
+   
+}
+.form-a{
+    margin: 3rem;
+    padding: 3rem;
+    background-color: brown;
+    display: inline-block;
+}
+.radios{
+   margin-left: 6rem;
+}
+.pick{
+    display: flex;
+    margin:  1rem 0;
+}
+.from{
+    margin: 0 1rem;
+}
+label{
+margin-right: 0.5rem;
+}
+.form-a button{
+    margin-left:4rem ;
+    padding: 0.5rem 7rem;
+}

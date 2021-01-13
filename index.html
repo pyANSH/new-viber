@@ -1,70 +1,101 @@
 <!DOCTYPE html>
-<title>
-    VIBER INDIA | Experience The Joy Of Riding On Wheels
-</title>
+<html>
+
 <head>
+    <title>
+        VIBER INDIA | Experience The Joy Of Riding On Wheels
+    </title>
+    <link rel="stylesheet" href="css/index.css">
+
+
+
+
+</head>
+
+<body>
     <header>
         <div id="top-header">
             <a href="#">info</a>
+            <a href="#">|</a>
             <a href="#">info</a>
+            <a href="#">|</a>
             <a href="#">info</a>
+            <a href="#">|</a>
             <a href="#">info</a>
         </div>
     </header>
-    
-    <div>
-        
-        <div>
-            <img src="#" alt="viberindia" id="logo">
+    <div class="nav2">
+
+        <div class="navHeading">
+            <img src="images/1.png" alt="viberindia" id="logo">
         </div>
-        <div>
+        <div class="nav">
             <ul>
                 <li><a href="#">info</a></li>
                 <li><a href="#">info</a></li>
                 <li><a href="#">info</a></li>
                 <li><a href="#">info</a></li>
+
             </ul>
+            <button id="header-book-button">
+                BOOK NOW
+            </button>
         </div>
-        <button id="header-book-button">
-            BOOK
-        </button>
-        </div>        
+
     </div>
-</head>
-<body>
-    <form class="form-a">
-        <div>
+    <div class="banner">
+        <div class="bannerPara">
+            <h1> Book a City Taxi to your destination in town
+            </h1>
+            <p>Choose from a range of categories and prices</p>
+        </div>
+        <form class="form-a">
+
+
             <div>
+                <div class="radios">
+                    <input type="radio" id="single" name="trip-type" value="single-trip">
+                    <label for="single">single trip</label>
+                    <input type="radio" id="round" name="trip-type" value="round-trip">
+                    <label for="round">Round Way</label>
+                </div>
                 <div>
-                    <div>    
-                        <input type="radio" id="single" name="trip-type" value="single-trip">
-                        <label for="single">single trip</label>
-                        <input type="radio" id="round" name="trip-type" value="round-trip">
-                        <label for="round">Round Way</label>
+                    <div class="pick">
+                        <div class="from">
+                            <label for="sel1">From</label>
+                            <select class="f-s1" id="select-1">
+                                <option>Delhi</option>
+                                <option>Ludhiana</option>
+                                <option>chandigarh</option>
+                                <option>jalandhar</option>
+                            </select>
+                        </div>
+                        <div class="pickDT">
+                            <label for="pickup-date-time">Pickup date and time</label>
+                            <input type="datetime-local" id="pickup-date-time" name="pickup-date-time">
+                        </div>
                     </div>
-                    <div>
-                        <label for="sel1">From</label>
-                        <select class="f-s1" id="select-1">
-                            <option>Delhi</option>
-                            <option>Ludhiana</option>
-                            <option>chandigarh</option>
-                            <option>jalandhar</option>
-                        </select>
-                        <label for="pickup-date-time">Pickup date and time</label>
-                        <input type="datetime-local"  id="pickup-date-time" name="pickup-date-time">
-                    </div>                   
-                    <label for="sel2">Return</label>
-                    <select class="f-s1" id="select-2">
-                        <option>Delhi</option>
-                        <option>Ludhiana</option>
-                        <option>chandigarh</option>
-                        <option>jalandhar</option>
-                    </select>
-                    <label for="return-date-time">Return date and time</label>
-                    <input type="datetime-local"  id="return-date-time" name="return-date-time">
+                    <div class="pick">
+                        <div class="from">
+                            <label for="sel2">Return</label>
+                            <select class="f-s1" id="select-2">
+                                <option>Delhi</option>
+                                <option>Ludhiana</option>
+                                <option>chandigarh</option>
+                                <option>jalandhar</option>
+                            </select>
+                        </div>
+                        <div class="pickDT">
+                            <label for="return-date-time">Return date and time</label>
+                            <input type="datetime-local" id="return-date-time" name="return-date-time">
+                        </div>
+                    </div>
                 </div>
             </div>
             <button type="submit" form="form-a" value="submit">Submit</button>
-        </div>
-    </form>
+
+        </form>
+    </div>
 </body>
+
+</html>
