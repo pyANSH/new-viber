@@ -111,4 +111,39 @@ margin-right: 0.5rem;
       align-items: center;
       flex-wrap: wrap;
   }
-  
+  .cars{
+      color: white;
+      background-color: black;
+    padding-bottom: 2rem;
+    }
+    .line{
+        padding: 2rem 19rem 0 3rem;
+    }
+    .line hr{
+        color: white;
+    }
+  .cars h2{
+      position: relative;
+      top: 1.5rem;
+      margin-left: 5rem;
+  }
+  .carName{
+      
+  }
+  .carName ul{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+  .carName ul li{
+      list-style: none;
+  }
+  .carName ul li a{
+      text-decoration: none;
+     line-height: 1.5rem;
+      color: white;
+  }
+  .one{
+      margin: 0 4rem;
+  }
