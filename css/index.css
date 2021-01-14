@@ -62,7 +62,10 @@ color: black;
     display: inline-block;
 }
 .radios{
-   margin-left: 6rem;
+   display: flex;
+   justify-content: center;
+   
+
 }
 .pick{
     display: flex;
@@ -108,3 +111,4 @@ margin-right: 0.5rem;
       align-items: center;
       flex-wrap: wrap;
   }
+  
