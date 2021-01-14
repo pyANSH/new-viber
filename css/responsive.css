@@ -4,6 +4,9 @@ padding-bottom: 2rem;
     width: auto;
     height: auto;
 }
+#top-header{
+    justify-content: center;
+}
 .form-a::before{
     margin: auto;
 }
