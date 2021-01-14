@@ -8,12 +8,34 @@
     display: flex;
     width: 100%;
     justify-content: right;
+    align-items: center;
     background-color: black;
 }
 #top-header a{
     text-decoration: none;
     padding: 0.5rem 1rem; 
     color: white;
+}
+
+#top-header img{
+    width: 30px;
+    height: auto;
+}
+
+.payment_options{
+    justify-content: space-between;
+}
+
+.payment_option1{
+    display: flexbox;
+    background-color: cadetblue;
+    border-radius: 1px;
+}
+
+.payment_option2{
+    display: flexbox;
+    background-color:chocolate;
+    border-radius: 1px;
 }
 
 .nav2{
