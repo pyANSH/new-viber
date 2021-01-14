@@ -2,7 +2,9 @@
 .form-a{
 padding-bottom: 30rem;
     width: auto;
-
+}
+.form-a::before{
+    margin: auto;
 }
 .banner{
     background-image: none;
