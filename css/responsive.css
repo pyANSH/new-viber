@@ -58,5 +58,45 @@ font-size: 1rem;
 #return-date-time{
     padding: 0.5rem 1rem;
 }
-
+.carName ul{
+    flex-direction: column;
+}
+.carName ul li a{
+    line-height: 4rem;
+    font-size: 2rem;
+}
+.cars h2{
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+}
+.line{
+    padding-top: 4rem;
+}
+.social h2{
+    text-align: center;
+margin: 0;
+}
+.socialLogo{
+    padding:3rem 0 0 0 ;
+}
+.discoverLinks{
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.discoverLinks ul{
+    padding: 2rem 0;
+}
+.nav3{
+    flex-direction: column;
+}
+.policy{
+    padding: 2rem 0;
+}
+.copyright{
+    justify-content: center;
+    padding-bottom: 2rem;
+}
 }
