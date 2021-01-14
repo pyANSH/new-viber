@@ -6,21 +6,23 @@
 
 #top-header{
     display: flex;
+    width: 100%;
     justify-content: right;
     background-color: black;
 }
 #top-header a{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem; 
     color: white;
 }
 
 .nav2{
+background-color: antiquewhite;
  display: flex;
  justify-content: space-between;
  align-items: center;
  padding: 1rem 2rem;   
-
+width: 100%;
 }
 .navHeading img{
 width: 60%;
