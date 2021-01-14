@@ -114,10 +114,10 @@ margin-right: 0.5rem;
   .cars{
       color: white;
       background-color: black;
-    padding-bottom: 2rem;
+  
     }
     .line{
-        padding: 2rem 19rem 0 3rem;
+        padding: 2rem 2rem 0 3rem;
     }
     .line hr{
         color: white;
@@ -147,3 +147,71 @@ margin-right: 0.5rem;
   .one{
       margin: 0 4rem;
   }
+
+  .social{
+      background-color: black;
+      color: white;
+      
+  }
+  .social h2{
+    position: relative;
+    top: 1.5rem;
+    margin-left: 5rem;   
+  }
+  .socialLogo ul{
+    display: flex;
+    justify-content: center ;
+  }
+  .socialLogo ul li{
+      list-style: none;
+      margin: 0 2rem;
+  }
+
+.discover{
+    color: white;
+    background-color: black;
+    
+}
+
+.discoverLinks{
+    display: flex;
+    justify-content: space-between;
+margin: 1rem 5rem 0 5rem;
+align-items: baseline;
+}
+.discoverLinks ul{
+    display: flex;   
+}
+.discoverLinks ul li{
+    list-style: none;
+    padding: 0 1rem;
+}
+.discoverLinks ul li a{
+    text-decoration: none;
+    color: white;
+}
+.bookRental a{
+    text-decoration: none;
+    color: white;
+}
+.TnC{
+    color: white;
+    background-color: black;
+}
+.policy ul{
+    display: flex;
+}
+.policy ul li{
+    list-style: none;
+    padding: 0 1rem;
+}
+.policy ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav3{
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem 5rem;  
+}
