@@ -1,8 +1,14 @@
 @media screen and (max-device-width:979px){
 .form-a{
-padding: 0;
+padding-bottom: 2rem;
     width: auto;
-
+    height: auto;
+}
+#top-header{
+    justify-content: center;
+}
+.form-a::before{
+    margin: auto;
 }
 .banner{
     background-image: none;
@@ -24,6 +30,8 @@ padding: 0;
 }
 .radios{
     font-size: 2.8rem;
+    flex-direction: column;
+    align-items: center;
 }
 .form1{
     font-size: 2.5rem;
