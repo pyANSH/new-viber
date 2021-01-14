@@ -1,7 +1,8 @@
 @media screen and (max-device-width:979px){
 .form-a{
-padding-bottom: 30rem;
+padding-bottom: 2rem;
     width: auto;
+    height: auto;
 }
 .form-a::before{
     margin: auto;
