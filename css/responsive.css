@@ -1,5 +1,54 @@
-@media screen and (max-width:979px){
-    .form-a{
-        width: auto;
+@media screen and (max-device-width:979px){
+.form-a{
+padding: 0;
+    width: auto;
+
+}
+.banner{
+    background-image: none;
+}
+#top-header a{
+    font-size: 2rem;
+}
+.nav ul li a{
+    font-size: 2rem;
+}
+.nav button{
+    font-size: 2rem;
+}
+.navHeading img{
+    width: 100%;
+}
+.bannerPara{
+    display: none;
+}
+.radios{
+    font-size: 2.8rem;
+}
+.form1{
+    font-size: 2.5rem;
+}
+.form-a button{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#select-1{
+font-size: 2rem;
+}
+#select-1 option{
+font-size: 1rem;
+}
+#select-2{
+    font-size: 2rem;
     }
+    #select-2 option{
+    font-size: 1rem;
+    }
+#pickup-date-time{
+    padding: 0.5rem 1rem;
+}
+#return-date-time{
+    padding: 0.5rem 1rem;
+}
+
 }
