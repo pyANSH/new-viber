@@ -26,8 +26,12 @@
             <img src="#"><a href="#">Payby PayU</a></p>
         </div>
     </header>
-    <div class="nav2 ">
-
+    <div class="nav2">
+        <div class="brand">
+            <button onclick="openMenu()">
+                &#9776;
+            </button>
+        </div>
         <div class="navHeading">
             <img src="images/1.png" alt="viberindia" id="logo">
         </div>
@@ -45,6 +49,20 @@
         </div>
 
     </div>
+ 
+    <!-- sidebar -->
+<aside class="sidebar">
+    <ul>
+        <li><button class="sidebar-close-button" onclick="closeMenu()">X</button></li>
+        
+        <li><a href="">info</a></li>
+        <li><a href="">info</a></li>
+        <li><a href="">info</a></li>
+        <li><a href="">info</a></li>
+        <li><a href="">info</a></li>
+    </ul>
+</aside>
+
     <!-- banner -->
     <div class="banner">
         <div class="bannerPara">
@@ -211,5 +229,14 @@
             </div>
         
     </footer>
+
+<script>
+    function openMenu(){
+        document.querySelector(".sidebar").classList.add('open')
+    }
+    function closeMenu(){
+        document.querySelector('.sidebar').classList.remove('open')
+    }
+</script>
 </body>
 </html>

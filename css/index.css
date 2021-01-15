@@ -22,6 +22,9 @@
  padding: 1rem 2rem;   
 
 }
+.brand{
+    display: none;
+}
 .navHeading img{
 width: 60%;
 }
@@ -219,4 +222,38 @@ align-items: baseline;
     display: flex;
     justify-content: end;
     margin-right: 4rem;
+}
+
+.brand button{
+    font-size: 3rem;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    transform: translateX(-30rem);
+    width: 30rem;
+    background-color: white;
+height: 100%;
+z-index: 2;
+font-size: 3rem;
+top: 0;
+}
+.sidebar-close-button{
+    left: 1rem;
+    background: none;
+    border: none;
+    height: 3rem;
+    padding: .5rem;
+    font-size: 2rem;
+    padding-top: 0 ;
+    cursor: pointer;
+    position: absolute;
+    
+}
+.sidebar.open{
+    transform: translateX(0);
 }
