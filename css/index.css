@@ -258,8 +258,8 @@ align-items: baseline;
 }
 .sidebar{
     position: fixed;
-    transform: translateX(-30rem);
-    width: 30rem;
+    transform: translateX(-48rem);
+    width: 48rem;
     background-color: white;
 height: 100%;
 z-index: 2;
