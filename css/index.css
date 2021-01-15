@@ -281,3 +281,41 @@ top: 0;
 .sidebar.open{
     transform: translateX(0);
 }
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+  .image {
+    display: flex;
+    width: 20%;
+}
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 27%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1a1f20;
+}
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+}
+  
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
