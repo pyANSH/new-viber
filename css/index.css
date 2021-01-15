@@ -45,18 +45,24 @@ body::-webkit-scrollbar{
 
 .payment_options{
     justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
 }
 
 .payment_option1{
-    display: flexbox;
+    display: flex;
+    position: absolute;
     background-color: cadetblue;
-    border-radius: 1px;
+    border-radius: 5px;
+    margin: 0px 0px;
 }
 
 .payment_option2{
-    display: flexbox;
+    display: flex;
+    position: relative;
     background-color:chocolate;
-    border-radius: 1px;
+    margin: 0 7.5rem;
+    border-radius: 5px;
 }
 
 .nav2{
@@ -109,6 +115,9 @@ color: black;
     background-color: brown;
     display: inline-block;
 }
+
+
+
 .radios{
    display: flex;
    justify-content: center;
