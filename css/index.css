@@ -334,7 +334,7 @@ align-items: baseline;
     width: 48rem;
     background-color: white;
 height: 100%;
-z-index: 2;
+z-index: 6;
 font-size: 3rem;
 top: 0;
 }
