@@ -92,8 +92,32 @@ width: 100%;
 .brand{
     display: none;
 }
+
+.navHeading{
+    display: flex;
+    align-items: center;
+    font-family: 'Fredoka One';
+    font-family: 'Varela Round';
+    font-family: 'Press Start 2P';
+    
+    font-family: 'Monoton';
+    font-family: 'Zilla Slab Highlight';
+    font-family: 'Monofett';
+
+    font-family: 'Bungee Inline';
+
+
+
+
+}
+
+.navHeading h3{
+    font-size: 3rem;
+}
+
 .navHeading img{
-width: 60%;
+width: 30%;
+height: auto;
 }
 .nav {
     display: flex;
