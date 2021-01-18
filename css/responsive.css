@@ -3,6 +3,7 @@
 padding-bottom: 2rem;
     width: auto;
     height: auto;
+    margin-top: 9rem;
 }
 #top-header{
     justify-content: center;
@@ -122,5 +123,49 @@ padding: 2rem 4rem;
 .sidebar ul li a{
     color: black;
     text-decoration: none;
+}
+.boons{
+    flex-direction: column;
+}
+.boonsContent img{
+    width: 20%;
+}
+.boonsContent h3{
+    font-size: 3rem;
+}
+/* about us */
+.fleet{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.fleet img{
+float: none;
+}
+.fleetContent h2{
+    font-size: 5rem;
+}
+.fleetContent p{
+    font-size: 2.5rem;
+}
+.fleetContent button{
+    font-size: 2rem;
+}
+.about{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.about img{
+float: none;
+}
+.aboutContent h2{
+    font-size: 5rem;
+}
+.aboutContent p{
+    font-size: 2.5rem;
+}
+.aboutContent button{
+    font-size: 2rem;
 }
 }
