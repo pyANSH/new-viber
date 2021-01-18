@@ -85,7 +85,7 @@ background-color: antiquewhite;
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 1rem 2rem;   
+ padding: 0 2rem;   
 width: 100%;
 }
 .brand{
@@ -111,7 +111,7 @@ width: 100%;
 }
 
 .navHeading h3{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .navHeading img{
@@ -479,3 +479,61 @@ margin-bottom: 0rem;
     margin: 2rem 0;
 }
 
+.terms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* abbout us */
+.fleet{
+    margin: 2rem;
+}
+.fleet img{
+    float: right;
+}
+.fleetContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem 4rem 5rem;
+}
+.fleetContent h2{
+    font-size: 3rem;
+}
+.fleetContent p{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.fleetContent button{
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1rem;
+}
+.about{
+    margin: 2rem;
+}
+.about img{
+    float: left;
+}
+.aboutContent{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem 4rem 5rem;
+}
+.aboutContent h2{
+    font-size: 3rem;
+}
+.aboutContent p{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.aboutContent button{
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1rem;
+}
