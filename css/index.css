@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar{
     display: none;    
@@ -16,6 +19,9 @@ body::-webkit-scrollbar{
   }
 
 #top-header{
+    position: fixed;
+    z-index: 7;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -36,7 +42,7 @@ body::-webkit-scrollbar{
 }
 
 .fix_header{
-    position: fixed;
+    
     width: 100%;
     z-index: 5;
 }
@@ -81,11 +87,11 @@ body::-webkit-scrollbar{
 }
 
 .nav2{
-background-color: antiquewhite;
+background-color: inherit;
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 0.75rem 2rem;   
+ padding: 4rem 2rem;   
 width: 100%;
 }
 .brand{
@@ -133,14 +139,21 @@ height: auto;
     padding: 1rem;
     text-decoration: none;
 color: black;
+margin: 0 1rem;
+border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #259DF3;
+    color: white;
+    font-weight: 601;
 }
 .nav button{
     border: none;
     margin: -1rem 0;
     padding:0.5rem 1rem ;
-    padding: 0.7rem 3rem;
-    border-radius: 20rem;
-    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
     border: none;
     background-color: #259DF3;
     color: white;
@@ -156,11 +169,22 @@ color: black;
     color: white;
    
 }
+.bannerPara h1{
+    font-weight:700 ;
+    color: black;
+}
+.bannerPara p{
+    font-weight: 700;
+    color: black;
+    font-size: 1.8rem;
+}
 .form-a{
     margin: 3rem;
     padding: 1rem;
-    background-color: brown;
+    background-color: #e3eafb6b;
     display: inline-block;
+    text-transform: uppercase;
+    font-weight: 1000;
 }
 
 
@@ -168,8 +192,10 @@ color: black;
 .radios{
    display: flex;
    justify-content: center;
-   
 
+}
+.radios h2{
+    font-weight: 1000;
 }
 .pick{
     display: flex;
@@ -219,7 +245,7 @@ margin-right: 0.5rem;
     border-radius: 5px;
     position: relative;
     z-index: 1;
-    background: inherit;
+   
     overflow: hidden;
     left: 25%;
   }
