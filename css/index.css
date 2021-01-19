@@ -99,23 +99,22 @@ width: 100%;
 .navHeading{
     display: flex;
     align-items: center;
-    font-family: 'Fredoka One';
-    font-family: 'Varela Round';
-    font-family: 'Press Start 2P';
     
-    font-family: 'Monoton';
-    font-family: 'Zilla Slab Highlight';
-    font-family: 'Monofett';
-
-    font-family: 'Bungee Inline';
 
 
 
 
 }
-
+.main{
+    background-color: #000;
+}
 .navHeading h3{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-left:1.5rem;
 }
 
 .navHeading img{
@@ -134,14 +133,14 @@ height: auto;
     list-style: none;
 }
 .nav ul li a{
-    padding: 1rem;
+    padding: 0.7rem;
     text-decoration: none;
 color: black;
 margin: 0 1rem;
-border-radius: 1rem;
-    font-size: 1rem;
+border-radius: 0.3rem;
+    font-size: 1.1rem;
     border: none;
-    background-color: #259DF3;
+    
     color: white;
     font-weight: 601;
 }
@@ -158,28 +157,38 @@ border-radius: 1rem;
     font-weight: 601;
 }
 .banner{
-    background: #2eb4b4;
+    /* background: url("https://images.unsplash.com/photo-1593055357429-62eaf3b259cc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA5fHxoZWFkZXIlMjBpbWFnZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-bottom: 5rem;
 }
 .bannerPara{
-    text-align: center;
+    text-align: left;
     padding: 3rem 0;
     color: white;
-    margin:0 21rem;
+    margin:0 11rem 0 2rem;
     border-radius:0.5rem;
     border:2px solid black;
-    background-color: white;
+    
    
 }
 .bannerPara h1{
+    font-family: "alliance",mono,sans-serif !important;
     font-weight:700 ;
+    font-size: 4.2rem;
     color: black;
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
+
 }
 .bannerPara p{
     margin-bottom: 0;
     font-weight: 700;
     color: black;
     font-size: 1.8rem;
+    color: white;
 }
 .form-a{
     margin: 3rem;
@@ -383,11 +392,12 @@ footer{
   .cars{
       color: white;
       background-color: black;
-      margin: 1rem;
+      margin: 0 1rem 1rem 1rem;
       border-radius: 0.5rem;
       padding-bottom:2rem;
       text-transform:uppercase;
       padding-top:2rem;
+      box-shadow: 12px 6px 18px black;
     }
     .line{
         padding: 2rem 2rem 0 3rem;
@@ -430,10 +440,11 @@ footer{
       padding-bottom:2rem;
       border-radius: 0.5rem;  
       text-transform:uppercase;
+      box-shadow: 12px 6px 18px black;
   }
   .social h2{
     position: relative;
-    top: 1.5rem;
+    top: 2.5rem;
     margin-left: 5rem;   
     font-weight:700;
   }
@@ -444,9 +455,14 @@ footer{
   }
   .socialLogo ul li{
       list-style: none;
-      margin: 0 0rem;
+      margin: 0 2rem;
   }
-
+  .socialLogo ul li img{
+      width: 170%;
+  }
+  .socialLogo ul li img:hover{
+      opacity:0.5;
+  }
 .discover{
     color: white;
     background-color: black;
@@ -454,6 +470,7 @@ footer{
     padding-bottom:2rem;
     padding-top: 1rem;
     border-radius: 0.5rem;
+    box-shadow: 12px 6px 18px black;
 }
 
 .discoverLinks{
@@ -488,6 +505,7 @@ text-transform:uppercase;
       padding-bottom:2rem;
       border-radius: 0.5rem;
       text-transform:uppercase;
+      box-shadow: 12px 6px 18px black;
 }
 .policy ul{
     display: flex;
@@ -584,7 +602,7 @@ text-align: center;
 display: flex;
 justify-content: center;
 padding-top: 2rem;
-box-shadow: 0px -2px 13px black;
+box-shadow: 0px -2px 13px white;
 padding-bottom: 2rem;
 background: #1c2a5d;
 margin: 2rem 1rem 0 1rem;
@@ -605,6 +623,7 @@ justify-content: center;
 align-items: center;
 font-size: 1rem;
 margin-bottom: 0rem;
+color: black;
 }
 .testimonials h1{
     text-align: center;
@@ -683,7 +702,7 @@ margin-bottom: 0rem;
 /* abbout us */
 .fleet{
     margin: 2rem;
-    border:2px solid black;
+    border:2px solid white;
     border-radius:0.5rem;
 }
 .fleet img{
@@ -699,6 +718,10 @@ margin-bottom: 0rem;
 }
 .fleetContent h2{
     font-size: 3rem;
+    text-transform:uppercase;
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
 }
 .fleetContent p{
     text-align: center;
@@ -734,7 +757,7 @@ margin-bottom: 0rem;
 .about{
     padding-top:2rem;
     margin: 2rem;
-    border:2px solid black;
+    border:2px solid white;
     border-radius:0.5rem;
 }
 .about img{
@@ -751,6 +774,10 @@ margin-bottom: 0rem;
 }
 .aboutContent h2{
     font-size: 3rem;
+    text-transform:uppercase;
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
 }
 .aboutContent p{
     text-align: center;
@@ -774,4 +801,6 @@ margin-bottom: 0rem;
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #000;
 }
