@@ -180,7 +180,7 @@ margin-right: 0.5rem;
 }
 .form-a {
     width: 37rem;
-    height: 18rem;
+    height: 20rem;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
     border-radius: 5px;
     position: relative;
@@ -216,9 +216,10 @@ body { background: aliceblue; }
   position: relative;
   margin-top: 30px;
 }
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
   .gtco-testimonials {
     margin-top: 20px;
+    width: 131%;
   }
 }
 .gtco-testimonials h2 {

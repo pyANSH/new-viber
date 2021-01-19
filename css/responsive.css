@@ -104,7 +104,7 @@ font-size: 2rem;
     padding-bottom: 2rem;
     font-size: 2rem;
 }
-.nav{
+.nav2 .nav{
     display: none;
 }
 .nav2{
@@ -125,6 +125,7 @@ padding: 2rem 4rem;
     text-decoration: none;
 }
 .boons{
+    width: 131%;
     flex-direction: column;
 }
 .boonsContent img{
@@ -135,6 +136,7 @@ padding: 2rem 4rem;
 }
 /* about us */
 .fleet{
+    width: 131%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -152,6 +154,7 @@ float: none;
     font-size: 2rem;
 }
 .about{
+    width: 131%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -167,5 +170,8 @@ float: none;
 }
 .aboutContent button{
     font-size: 2rem;
+}
+footer{
+    width: 131%;
 }
 }
