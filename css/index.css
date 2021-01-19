@@ -613,10 +613,10 @@ margin-bottom: 2rem;
 .boonsContent{
 display: flex;
 margin: 0.5rem 2rem;
-border: 2px solid white;
+border: 2px solid black;
 border-radius: 0.5rem;
 padding: 1rem;
-background: white;
+background: black;
 }
 .boonsContent h3{
 display: flex;
@@ -625,7 +625,7 @@ justify-content: center;
 align-items: center;
 font-size: 1rem;
 margin-bottom: 0rem;
-color: black;
+color: white;
 }
 .testimonials h1{
     text-align: center;
