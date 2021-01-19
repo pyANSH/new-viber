@@ -138,9 +138,16 @@ color: black;
     border: none;
     margin: -1rem 0;
     padding:0.5rem 1rem ;
+    padding: 0.7rem 3rem;
+    border-radius: 20rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #259DF3;
+    color: white;
+    font-weight: 601;
 }
 .banner{
-    background: url('https://images.unsplash.com/photo-1552288092-76e7d732366c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFub3JhbWljfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background: url('https://images.unsplash.com/photo-1552288092-76e7d732366c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFub3JhbWljfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')no-repeat center center/cover;
     padding-bottom: 5rem;
 }
 .bannerPara{
@@ -175,18 +182,46 @@ label{
 margin-right: 0.5rem;
 }
 .form-a button{
-    margin-left:4rem ;
-    padding: 0.5rem 7rem;
+    display: flex;
+    margin:auto;
+    padding: 0.7rem 3rem;
+    border-radius: 20rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #259DF3;
+    color: white;
+    font-weight: 601;
+}
+.pickDT input{
+    padding: 0.35rem 0 ;
+    border-radius: 1rem;
+    border: none;
+}
+.address input{
+    padding: 0.35rem 0 ;
+    border-radius: 1rem;
+    border: none;
+
+}
+.from select{
+    padding: 0.35rem 0 ;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.form2{
+    margin-bottom: 2rem;
 }
 .form-a {
     width: 37rem;
-    height: 20rem;
+    
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
     border-radius: 5px;
     position: relative;
     z-index: 1;
     background: inherit;
     overflow: hidden;
+    left: 25%;
   }
   
   .form-a:before {
