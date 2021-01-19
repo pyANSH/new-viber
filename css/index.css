@@ -387,7 +387,7 @@ body { background: aliceblue; }
 
 
 footer{
-    background-color: #01b0f8;
+    background-color: #7971ea;
     padding-top: 1rem;
     border-radius:0.5rem .5rem 0 0;
 }
@@ -453,8 +453,8 @@ footer{
   }
   .socialLogo ul{
     display: flex;
-    justify-content: center;
-    margin-bottom: 0rem;
+    justify-content: flex-end;
+    margin-right: 4rem;
   }
   .socialLogo ul li{
       list-style: none;
@@ -607,7 +607,7 @@ justify-content: center;
 padding-top: 2rem;
 box-shadow: 0px -2px 13px white;
 padding-bottom: 2rem;
-background: #1c2a5d;
+
 margin: 2rem 1rem 0 1rem;
 border-radius:0.5rem;
 margin-bottom: 2rem;
@@ -615,10 +615,10 @@ margin-bottom: 2rem;
 .boonsContent{
 display: flex;
 margin: 0.5rem 2rem;
-border: 2px solid black;
+
 border-radius: 0.5rem;
 padding: 1rem;
-background: black;
+
 }
 .bannerImg{
     float: right;
