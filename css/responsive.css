@@ -9,6 +9,9 @@ padding-bottom: 2rem;
     justify-content: center;
     display: none;
 }
+.one{
+    text-align: center;
+}
 .form-a::before{
     margin: auto;
 }
@@ -23,6 +26,9 @@ padding-bottom: 2rem;
 }
 .nav button{
     font-size: 2rem;
+}
+.navHeading h3{
+    font-size: 5rem;
 }
 .navHeading img{
     width: 100%;
@@ -70,7 +76,7 @@ font-size: 1rem;
 .cars h2{
     text-align: center;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     padding-bottom: 3rem;
 }
 .line{
@@ -84,13 +90,36 @@ font-size: 2rem;
 .socialLogo{
     padding:3rem 0 0 0 ;
 }
+.socialLogo ul{
+    justify-content: center;
+}
+.socialLogo ul li{
+    margin: 2rem 6rem;
+}
+.socialLogo ul li img{
+    width: 411%;
+}
+.official h2{
+    font-size: 4.5rem;
+}
+.officialContent ul{
+    justify-content: flex-end;
+    margin-left: 10rem;
+}
+.officialContent ul li{
+    width: 33%;
+}
 .discoverLinks{
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
 }
+.discoverLinks h2{
+    font-size:4.5rem;
+}
 .discoverLinks ul{
     padding: 2rem 0;
+font-size: 2.7rem;
 }
 .nav3{
     flex-direction: column;
@@ -98,6 +127,7 @@ font-size: 2rem;
 }
 .policy{
     padding: 2rem 0;
+    font-size: 2rem;
 }
 .copyright{
     justify-content: center;
@@ -113,7 +143,7 @@ font-size: 2rem;
  padding-bottom: 6rem;
 }
 .navHeading{
-    margin-left: 21rem;
+    
 }
 .brand{
     display: block;
@@ -138,6 +168,10 @@ padding: 2rem 4rem;
 }
 .boonsContent h3{
     font-size: 3rem;
+}
+.bookRental a{
+    font-size: 2.2rem;
+    border: 2px solid white;
 }
 /* about us */
 .fleet{

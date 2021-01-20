@@ -421,6 +421,10 @@ footer{
       text-align: center;
     
   font-weight:700;
+  background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent
+
     }
   .carName{
       
@@ -458,6 +462,10 @@ footer{
     top: 2.5rem;
     margin-left: 5rem;   
     font-weight:700;
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
+
   }
   .socialLogo ul{
     display: flex;
@@ -493,6 +501,10 @@ text-transform:uppercase;
 }
 .discoverLinks h2{
     font-weight:700;
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
+
 }
 .discoverLinks ul{
     display: flex;   
@@ -639,6 +651,10 @@ padding: 1rem;
 .official h2{
     text-align: center;
     margin: 0 0 1rem 0;
+        background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
+
 }
 .officialContent ul{
     display: flex;
