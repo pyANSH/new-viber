@@ -158,7 +158,7 @@ border-radius: 0.3rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 5rem;
+   
 }
 .bannerPara{
     text-align: left;
@@ -530,7 +530,8 @@ text-transform:uppercase;
 .copyright{
     display: flex;
     justify-content: end;
-    margin-right: 4rem;
+    padding: 4rem;
+    background-color: #000;
 }
 
 .brand button{
