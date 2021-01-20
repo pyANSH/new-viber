@@ -5,11 +5,9 @@
     <title>
         VIBER INDIA | Experience The Joy Of Riding On Wheels
     </title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/responsive.css">
+
+    
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -38,6 +36,8 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!--script src="/test_script.js"></script-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 
 </head>
@@ -46,7 +46,7 @@
 
     <!-- navigation bar -->
     <!--add link of payments -->
-
+<div class="banner">
     <div class="fix">
 
         <div class="fix_header">
@@ -57,7 +57,7 @@
                     <a>|</a>
                     <img src="images/email.png"><a href="mailto:ales@carwebsite.com">sales@carwebsite.com</a>
                     <a>|</a>
-                    <img src="images/card.png"><a>Pay by</a>
+                    <img src="images/card.svg"><a>Pay by</a>
                     <div class="payment_options">
                         <div class="payment_option1">
                             <a href="#">CCAvenue</a>
@@ -83,10 +83,10 @@
                     </div>
                     <div class="nav">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="gallery.html">gallery</a></li>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about-us.html">ABOUT US</a></li>
+                            <li><a href="services.html">SERVICES</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
 
                         </ul>
                         <button id="header-book-button">
@@ -108,76 +108,34 @@
         <ul>
             <li><button class="sidebar-close-button" onclick="closeMenu()">X</button></li>
 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="gallery.html">GALLARY</a></li>
         </ul>
     </aside>
 
 
-    </div>
+    
 
     <!-- banner -->
-    <div class="banner">
+    <div class="intro">
         <div class="bannerPara">
+            <!-- <img class="bannerImg" src="images/carr.gif" alt=""> -->
             <h1> Book a City Taxi to your destination in town
             </h1>
             <p>Choose from a range of categories and prices</p>
+            
+       
         </div>
-
-        <!-- form -->
+         <!-- form -->
         <!-- align-all-text -->
-        <form class="form-a">
-            <div>
-                <div class="radios">
-                    <h2>Rentals</h2>
-                </div>
-                <div class="form1">
-                    <div class="pick">
-                        <div class="from">
-                            <label for="sel1">From</label>
-                            <select class="f-s1" id="select-1">
-                                <option>Delhi</option>
-                                <option>Ludhiana</option>
-                                <option>chandigarh</option>
-                                <option>jalandhar</option>
-                            </select>
-                        </div>
-                        <div class="pickDT">
-                            <label for="pickup-date-time">Pickup date and time</label>
-                            <input type="datetime-local" id="pickup-date-time" name="pickup-date-time"><br>
-                        </div>
-                        <div>
-                            <label for="pickup-address">pickup address</label>
-                            <input type="text" id="pickup-address" name="pickup-addess">
-                        </div>
-                    </div>
-                    <div class="pick">
-                        <div class="from">
-                            <label for="sel2">Return</label>
-                            <select class="f-s1" id="select-2">
-                                <option>Delhi</option>
-                                <option>Ludhiana</option>
-                                <option>chandigarh</option>
-                                <option>jalandhar</option>
-                            </select>
-                        </div>
-                        <div class="pickDT">
-                            <label for="return-date-time">Return date and time</label>
-                            <input type="datetime-local" id="return-date-time" name="return-date-time"><br>
-                        </div>
-                        <div>
-                            <label for="drop-address">drop address</label>
-                            <input type="text" id="drop-address" name="drop-address">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button type="submit" form="form-a" value="submit">Submit</button>
-        </form>
+       
     </div>
+  
+</div>
 <!-- about us -->
+<div class="main">
 <div class="fleet">
     <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
     <div class="fleetContent">
@@ -280,9 +238,9 @@
 
 
   </script>
-<!--beta ends here-->
+<!-- beta ends here -->
 
-
+</div>
 
     <!-- Testimonial -->
     
@@ -325,11 +283,10 @@
         <!-- Tab links -->
 
         <!--zz-->
+    
 
         <div class="cars">
-            <div class="line">
-                <hr>
-            </div>
+         
             <h2>Our Cars</h2>
             <div class="carName">
 
@@ -360,25 +317,41 @@
                 </ul>
             </div>
         </div>
+<div class="official">
+    
 
+    <div class="officialContent">
+        <ul>
+       <div class="two">
+            <li><img src="images/nissan.png" alt="" id="offimg1"></li>
+            <li><img src="images/fiat.png" alt="" id="offimg2"></li>
+            <li><img src="images/Mitsubishi.png" alt="" id="offimg3"></li>
+        </div>
+       <div class="two">
+            <li><img src="images/mercedes.png" alt="" id="offimg4"></li>
+            <li><img src="images/audi.png" alt="" id="offimg5"></li>
+        </div>
+        <div class="two">
+            <li><img src="images/vw.png" alt="" id="offimg6"></li>
+            <li><img src="images/isuzu.png" alt="" id="offimg7"></li>
+        </div>
+        </ul>
+    </div>
+</div>
         <div class="social">
-            <div class="line">
-                <hr>
-            </div>
+            
             <h2>Social Links</h2>
             <div class="socialLogo">
                 <ul>
-                    <li><a href="#"><img src="#"></a></li>
-                    <li><a href="#"><img src="#"></a></li>
-                    <li><a href="#"><img src="#"></a></li>
-                    <li><a href="#"><img src="#"></a></li>
+                    <li><a href="#"><img src="images/twitter.svg"></a></li>
+                    <li><a href="#"><img src="images/linkedin.svg"></a></li>
+                    <li><a href="#"><img src="images/instagram.svg"></a></li>
+                    
                 </ul>
             </div>
         </div>
         <div class="discover">
-            <div class="line">
-                <hr>
-            </div>
+            
 
             <div class="discoverLinks">
                 <div>
@@ -396,25 +369,19 @@
             </div>
             <!-- added nav class  -->
         </div>
+        
         <div class="TnC">
-            <div class="line">
-                <hr>
-            </div>
+            
 <div class="terms">
             <div class="nav3">
 
-                <div class="navHeading">
+                <div class="navHeading foot">
                     <img src="images/1.png" alt="viberindia" id="logo">
 
                 </div>
                
             </div>
-            <div class="container">
-                <img src="images/contacts_qr.svg" alt="avtar" class="image">
-                <div class="overlay">
-                    <div class="text">contact details</div>
-                </div>
-            </div>
+            
             <div class="policy">
                 <ul>
                     <li><a href="#">terms and conditions</a></li>
@@ -441,9 +408,7 @@
         }
     </script>
     
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script> -->
+    
 
 
         
