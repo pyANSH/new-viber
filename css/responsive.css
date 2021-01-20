@@ -148,6 +148,7 @@ padding: 2rem 4rem;
 }
 .fleet img{
 float: none;
+width: 100%;
 }
 .fleetContent h2{
     font-size: 5rem;
@@ -166,6 +167,7 @@ float: none;
 }
 .about img{
 float: none;
+width: 100%;
 }
 .aboutContent h2{
     font-size: 5rem;
