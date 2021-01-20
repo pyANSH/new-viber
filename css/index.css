@@ -153,6 +153,18 @@ border-radius: 0.3rem;
     color: white;
     font-weight: 601;
 }
+.explore button{
+    border: none;
+    margin-top: 2rem;
+    
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #1a55ff;
+    color: white;
+    font-weight: 601;
+}
 .banner{
     /* background: url("https://images.unsplash.com/photo-1593055357429-62eaf3b259cc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA5fHxoZWFkZXIlMjBpbWFnZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
     background-repeat: no-repeat;
