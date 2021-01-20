@@ -219,6 +219,19 @@ margin: auto;
 .foot{
     margin: 0;
 }
+/* slider */
+.gtco-testimonials .center h5{
+    font-size: 3rem;
+}
+.gtco-testimonials .center h5 span{
+    font-size: 2.2rem;
+}
+.gtco-testimonials .card p{
+    font-size: 1.7rem;
+}
+.gtco-testimonials h2{
+    font-size: 7rem;
+}
 footer{
     width: 131%;
 }
