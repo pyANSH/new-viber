@@ -143,7 +143,7 @@ font-size: 2.7rem;
  padding-bottom: 6rem;
 }
 .navHeading{
-    
+    margin: 0 17rem;
 }
 .brand{
     display: block;
@@ -215,6 +215,9 @@ margin: auto;
 }
 .aboutContent button{
     font-size: 2rem;
+}
+.foot{
+    margin: 0;
 }
 footer{
     width: 131%;
