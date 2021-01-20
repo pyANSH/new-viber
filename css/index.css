@@ -620,10 +620,69 @@ border-radius: 0.5rem;
 padding: 1rem;
 
 }
-.bannerImg{
+.official{
+    background-color: #000;
+    margin: 1rem;
+    padding: 0 2rem;
+    box-shadow: 12px 6px 18px black;
+    border-radius: 0.5rem;
+}
+#offimg1{
+    width:80%;
+}
+#offimg2{
+    width:37%;
+    margin:1rem 6rem 1rem 14rem;
+    
+}
+#offimg3{
+    width:72%;
+    margin-left: 8rem;
+}
+#offimg4{
+    width:100%;
+    position:relative;
+    top:-7rem;
+}
+#offimg5{
+    width:70%;
+    position:relative;
+    top:-3rem;
+}
+#offimg6{
+    width:34%;   
+margin:0 13rem;
+position: relative;
+top: -9rem;
+}
+#offimg7{
+ width: 80%;
+ position: relative;
+ top: -11rem;
+ left: -5rem;
+}
+.officialContent ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    display: flex;
+    justify-content: center;
+}
+.officialContent ul li{
+    list-style: none;
+}
+.officialContent ul li img{
+    width: 13%;
+}
+.two
+
+/* .bannerImg{
     float: right;
     width: 25%;
-}
+} */
 .boonsContent h3{
 display: flex;
 margin-left: 1rem;
