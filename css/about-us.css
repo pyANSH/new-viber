@@ -1,0 +1,20 @@
+*{
+    background-color: #000;
+}
+
+.nav2{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;   
+    width: 100%;
+    position: fixed;
+    border-radius: 0px 0px 7px 7px;
+    }
+
+#content_body{
+padding-top: 8rem;
+}
+
+#content_body 
