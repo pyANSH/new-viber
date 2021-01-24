@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: google_sans_medium;
-    src: url("/fonts/GoogleSans-Medium.ttf");
+    src: url("fonts/GoogleSans-Medium.ttf");
   }
 
   @font-face {
     font-family: google_sans_regular;
-    src: url("/fonts/GoogleSans-Regular.ttf");
+    src: url("fonts/GoogleSans-Regular.ttf");
   }
 
 .nav2{
