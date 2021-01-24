@@ -25,6 +25,8 @@
 
 #content_body{
 padding-top: 8rem;
+padding-left: 3rem;
+padding-right: 3rem;
 }
 
 #content_body h3{
@@ -36,4 +38,9 @@ padding-top: 8rem;
     text-align: center;
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent
+}
+
+#content_body p{
+    text-align: justify;
+    font-family: google_sans_regular;
 }
