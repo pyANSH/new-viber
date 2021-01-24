@@ -182,6 +182,9 @@ border-radius: 0.3rem;
     
    
 }
+.responsive{
+    display: none;
+}
 .bannerPara h1{
     font-family: "alliance",mono,sans-serif !important;
     font-weight:700 ;
