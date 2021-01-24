@@ -84,8 +84,8 @@ font-size: 1rem;
 }
 .social h2{
     text-align: center;
-margin: 0;
-font-size: 2rem;
+margin: auto;
+font-size:4.5rem;;
 }
 .socialLogo{
     padding:3rem 0 0 0 ;
@@ -108,6 +108,7 @@ font-size: 2rem;
 }
 .officialContent ul li{
     width: 33%;
+    margin-bottom: 2rem;
 }
 .discoverLinks{
     flex-direction: column;
