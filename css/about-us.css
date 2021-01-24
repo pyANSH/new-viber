@@ -21,6 +21,7 @@
     width: 100%;
     position: fixed;
     border-radius: 0px 0px 7px 7px;
+    z-index: 6;
     }
 
 #content_body{
@@ -43,4 +44,25 @@ padding-right: 3rem;
 #content_body p{
     text-align: justify;
     font-family: google_sans_regular;
+}
+
+@media screen and (max-device-width:979px){
+    #content_body h3{
+        font-family: google_sans_regular;
+        font-size: 10rem;
+    }
+    
+    #content_body p{
+        text-align: justify;
+        font-family: google_sans_regular;
+        font-size: 2.5rem;
+    } 
+    
+    #content_body{
+        width: 131%;
+    }
+     
+    .navHeading {
+        margin-right: 28rem;
+    }
 }
