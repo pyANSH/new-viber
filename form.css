@@ -89,12 +89,7 @@ margin-bottom: 2rem;
     font-size: 1.2rem;
     margin-top: 1rem;
 }
-.form-horizontal .btn:hover,
-.form-horizontal .btn:focus{
-    color: #fff;
-    letter-spacing: 4px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
+
 .form-horizontal .forgot-pass{
     font-size: 12px;
     text-align: left;
@@ -105,6 +100,7 @@ margin-bottom: 2rem;
 .form-horizontal .forgot-pass a{
     color: #999;
     transition: all 0.3s ease;
+    font-size: 1rem;
 }
 .form-horizontal .forgot-pass a:hover{
     color: #555;
