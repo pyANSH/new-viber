@@ -71,7 +71,7 @@ font-size: 1rem;
 }
 .carName ul li a{
     line-height: 4rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .cars h2{
     text-align: center;
@@ -204,7 +204,7 @@ margin: auto;
     font-size: 5rem;
 }
 .fleetContent p{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 .fleetContent button{
@@ -227,7 +227,7 @@ margin: auto;
     font-size: 5rem;
 }
 .aboutContent p{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 .aboutContent button{
