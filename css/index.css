@@ -755,6 +755,14 @@ color: white;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.mockup1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .boons{
     display: flex;
     justify-content: center;
