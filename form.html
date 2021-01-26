@@ -35,13 +35,24 @@
                         <span class="input-icon"><i class="fa fa-lock"></i></span>
                         <input class="form-control" type="datetime-local" name="return" placeholder="return date">
                     </div>
+                    
                     <div class="form-group">
                         <span class="input-icon"><i class="fa fa-lock"></i></span>
-                        <input class="form-control" type="text" name="pickAddress" placeholder="pickup address" required >
+                        <input class="form-control" type="text" name="dropAddress" placeholder="Pickup address">
                     </div>
                     <div class="form-group">
                         <span class="input-icon"><i class="fa fa-lock"></i></span>
                         <input class="form-control" type="text" name="dropAddress" placeholder="drop address">
+                    </div>
+                    <select name="select" id="select" onchange="setPrice()">
+                        <option value="">Select Your Car</option>
+                        <option value="id1">Wagon R</option>
+                        <option value="id2">BMW</option>
+                    </select>
+                    <!-- Per KM price -->
+                    <div class="form-group">
+                        <span class="input-icon"><i class="fa fa-lock"></i></span>
+                        <input class="form-control" id="price" type="text" name="pickAddress" placeholder="Price per KM" required disabled >
                     </div>
                     <span class="forgot-pass"><a href="#">book on call</a></span>
                     <input type="submit" value="submit" class="btn signin">
@@ -65,5 +76,22 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
+    <script>
+let price=document.getElementById('price')
+function setPrice(){
+    id1=document.getElementById('select');
+    if(id1.value=='id1'){
+        price.value='238';
+    }
+    else if(id1.value=='id2'){
+    price.value='222';
+    }
+}
+
+
+
+  
+
+    </script>
   </body>
 </html>
