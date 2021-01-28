@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="css/form.css">
     <title>FORM</title>
   </head>
   <body>
@@ -45,7 +45,7 @@
                         <input class="form-control" type="text" name="dropAddress" placeholder="drop address">
                     </div>
                     <select name="select" id="select" onchange="setPrice()">
-                        <option value="">Select Your Car</option>
+                        <option value="id0">Select Your Car</option>
                         <option value="id1">Wagon R</option>
                         <option value="id2">BMW</option>
                     </select>
@@ -86,6 +86,12 @@ function setPrice(){
     else if(id1.value=='id2'){
     price.value='222';
     }
+    else if(id1.value=='id2'){
+        price.value='222';
+        }
+        else if(id1.value=='id0'){
+            price.value='Price per KM';
+            }    
 }
 
 
