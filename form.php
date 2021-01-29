@@ -8,8 +8,10 @@ if (isset($_POST['submit'])) {
     $dropAddress=$_POST['dropAddress'];
     $to='prantoshv@gmail.com';
     $subject='Form Submission';
-    $message="Name: " . $name ."\n\n" . "Name: " . $phone . "\n" . "Name: " . $pickup ."\n" . "Name: " . $return . "\n" . "Name: " . $pickAddress . "\n" . "Name: " . $dropAddress;
+    $message="Name: " . $name ."\n" . "phone: " . $phone . "\n" . "pickup date: " . $pickup ."\n" . "return date: " . $return . "\n" . "Pickup address:Test1 " . $pickAddress . "\n" . "drop address: " . $dropAddress;
     $headers="From" . $name;
+    $headers='MIME-Version: 1.0' . "\r\n";
+    $headers='Content-type : text/html; charset=iso-8859-1' . "\r\n";
 
     if (mail($to,$subject,$message,$headers)) {
         echo "<h1>Sent Successfully</h1>";
