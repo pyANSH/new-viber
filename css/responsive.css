@@ -71,7 +71,7 @@ font-size: 1rem;
 }
 .carName ul li a{
     line-height: 4rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .cars h2{
     text-align: center;
@@ -84,8 +84,8 @@ font-size: 1rem;
 }
 .social h2{
     text-align: center;
-margin: 0;
-font-size: 2rem;
+margin: auto;
+font-size:4.5rem;;
 }
 .socialLogo{
     padding:3rem 0 0 0 ;
@@ -108,6 +108,7 @@ font-size: 2rem;
 }
 .officialContent ul li{
     width: 33%;
+    margin-bottom: 2rem;
 }
 .discoverLinks{
     flex-direction: column;
@@ -139,11 +140,11 @@ font-size: 2.7rem;
 }
 .nav2{
     justify-content: normal;
- margin-left: 5rem;
+ margin-left: 3rem;
  padding-bottom: 6rem;
 }
 .navHeading{
-    margin: 0 17rem;
+    margin: 0 19rem;
 }
 .brand{
     display: block;
@@ -151,17 +152,29 @@ font-size: 2.7rem;
 .brand button{
     color: white;
 }
+.sidebar{
+    background-color: black;
+}
 .sidebar ul li{
     list-style: none;
 padding: 2rem 4rem;
 }
 .sidebar ul li a{
-    color: black;
+   
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
     text-decoration: none;
 }
+.sidebar-close-button{
+    font-size: 3rem;
+   color: white;
+}
+
 .boons{
     width: 131%;
     flex-direction: column;
+    display: none;
 }
 .boonsContent img{
     width: 20%;
@@ -179,6 +192,7 @@ padding: 2rem 4rem;
     margin: 0;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 .fleet img{
 float: none;
@@ -190,16 +204,18 @@ margin: auto;
     font-size: 5rem;
 }
 .fleetContent p{
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 .fleetContent button{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .about{
     width: 131%;
     margin: 0;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 .about img{
 float: none;
@@ -211,10 +227,11 @@ margin: auto;
     font-size: 5rem;
 }
 .aboutContent p{
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 .aboutContent button{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .foot{
     margin: 0;
@@ -232,7 +249,38 @@ margin: auto;
 .gtco-testimonials h2{
     font-size: 7rem;
 }
+
+.mockup1{
+    width: 131%;
+}
+
 footer{
     width: 131%;
+}
+.responsive{
+    display: block  ;
+    position: relative;
+    right: -11rem;
+    border:0.5rem solid transparent;
+    border-image: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+border-image-slice: 1;
+}
+.responsive h1{
+    margin-left: 1.7rem;
+    text-align: center;
+}
+.explore{
+    margin-top: 5rem;
+   position: relative;
+   right: -0.8rem;
+    
+}
+.explore button{
+    display: flex;
+    margin: auto;
+    font-size: 3rem;
+}
+footer{
+    margin-top:4rem;
 }
 }

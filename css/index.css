@@ -182,6 +182,9 @@ border-radius: 0.3rem;
     
    
 }
+.responsive{
+    display: none;
+}
 .bannerPara h1{
     font-family: "alliance",mono,sans-serif !important;
     font-weight:700 ;
@@ -479,6 +482,7 @@ footer{
     margin-left: 5rem;   
     font-weight:700;
     background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    width:fit-content;
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent
 
@@ -602,6 +606,10 @@ top: 0;
 }
 .sidebar.open{
     transform: translateX(0);
+    border:0.5rem solid transparent;
+    border-image: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+border-image-slice: 1;
+
 }
 .container {
     position: relative;
@@ -747,6 +755,14 @@ color: white;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.mockup1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .boons{
     display: flex;
     justify-content: center;
