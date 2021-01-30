@@ -14,6 +14,9 @@ body{
     font-size: 4rem;
     font-weight: 1000;
 }
+#logoR{
+    display: none;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -37,7 +40,12 @@ form h1{
     text-transform: uppercase;
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
-    ;
+    border:2px solid transparent;
+    border-image: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+border-image-slice: 1;
+    border-radius:0.5rem;
+    box-shadow: 0 8px 10px -8px#c9dff0;
+    
     }
 #submit{
     font-size: 1rem;
@@ -48,6 +56,7 @@ form h1{
     background-color: #1a55ff;
     color: white;
     font-weight: 601;
+    box-shadow: none;
     margin: 0 4rem;
 }
 
@@ -68,3 +77,44 @@ form h1{
 
 }
 
+@media screen and (max-width:979px){
+    body{
+        background: linear-gradient(148deg, rgba(121,113,234,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    .viber{
+        background-color: #000;
+        box-shadow: 12px 6px 18px black;
+        border-radius: 0.5rem;
+    }
+    .viber h1{
+        margin: 0;
+        font-size: 2rem;
+        border:none;
+        background: #000;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+        padding: 1rem 0;
+        margin-top: 2rem;
+        box-shadow: 12px 6px 18px black;
+        background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    }
+    #logo{
+        display: none;
+    }
+    #logoR{
+        display: block;
+        
+    }
+    form{
+        margin: 0;
+        background: #000;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow: 12px 6px 18px black;
+  margin-bottom: 2rem;
+    }
+}
