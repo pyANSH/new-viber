@@ -77,6 +77,10 @@ border-image-slice: 1;
 
 }
 
+.black{
+    color: black;
+}
+
 @media screen and (max-width:979px){
     body{
         background: linear-gradient(148deg, rgba(121,113,234,1) 35%, rgba(0,212,255,1) 100%);

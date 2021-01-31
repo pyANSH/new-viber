@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/form.css">    
-    <title>FORM</title>
+    <title>BOOK NOW</title>
 </head>
 <body>
     <div class="viber">
@@ -13,16 +13,24 @@
     <div class="form1">
         <form action="form.php" method="post">
             <h1>BOOK NOW</h1>
-            <input type="text" name="name" id="name" placeholder="Name" class="input">
-            <input type="text" name="phone" id="phone" placeholder="Phone number" class="input">
-            <input type="email" name="Email" id="" placeholder="Email" class="input">
-            <input type="datetime-local" name="pickupDate" id="" placeholder="Pickup Date" class="input">
-            
-            <input type="datetime-local" name="DropDate" id="" placeholder="Drop Date" class="input">
-            <input type="text" name="Pickup" id="" placeholder="Pickup Address" class="input">
-            <input type="text" name="Drop" id="" placeholder="Drop Address" class="input">
-            <input type="submit" value="SUBMIT" name="submit" class="input" id="submit">
+            <input type="text" name="name" id="name" placeholder="Name" class="input" required>
+            <input type="text" name="phone" id="phone" placeholder="Phone number" class="input" required>
+            <input type="email" name="Email" id="" placeholder="Email" class="input" required>
+            <select name="select" id="select" class="input" onchange="setPrice()" autocomplete="off" required>
+                <option class="black" value="1">Choose Your Ride</option>
+                <option value="2">mecedez</option>
+                <option value="3">mec</option>
+            </select>
+            <input type="text" name="price" id="price" placeholder="Price per KM" class="input" autocomplete="off" disabled>
+            <input type="datetime-local" name="pickupDate" id="" placeholder="Pickup Date" class="input" required>
+            <input type="datetime-local" name="DropDate" id="" placeholder="Drop Date" class="input" required>
+            <input type="text" name="Pickup" id="" placeholder="Pickup Address" class="input" required>
+            <input type="text" name="Drop" id="" placeholder="Drop Address" class="input" required>
+            <input type="submit" value="SUBMIT" name="submit" class="input" id="submit" >
         </form>
     </div>
+    <script src="js/form.js">
+
+    </script>
 </body>
-</html>
+</html> 
