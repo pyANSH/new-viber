@@ -59,7 +59,9 @@ border-image-slice: 1;
     box-shadow: none;
     margin: 0 4rem;
 }
-
+.butt{
+    margin-bottom: 2rem;
+}
 
 .butt button{
     color: rgba(255,255,255,0.8);
@@ -72,7 +74,8 @@ border-image-slice: 1;
     box-shadow: 1px 1px 20px black;
     padding: 1rem;
     display: flex;
-    
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
     margin: auto;
 
 }
