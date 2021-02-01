@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/form.css">    
+    <link rel="stylesheet" href="css/form.css">
     <title>BOOK NOW</title>
 </head>
+
 <body>
     <div class="viber">
-        
-        <h1> <img src="images/1.png" alt="" id="logoR"> VIBER <img src="/images/1.png" alt="" id="logo"> INDIA</h1></div>
+
+        <h1> <img src="images/1.png" alt="" id="logoR"> VIBER <img src="/images/1.png" alt="" id="logo"> INDIA</h1>
+    </div>
     <div class="form1">
         <form action="form.php" method="post">
             <h1>BOOK NOW</h1>
@@ -18,19 +21,86 @@
             <input type="email" name="Email" id="" placeholder="Email" class="input" required>
             <select name="select" id="select" class="input" onchange="setPrice()" autocomplete="off" required>
                 <option class="black" value="1">Choose Your Ride</option>
-                <option value="2">mecedez</option>
-                <option value="3">mec</option>
+                <optgroup label="Luxury Car">
+                    <option value="BMW 730 LD">BMW 730 LD</option>
+                    <option value="JAGUAR XJ L">JAGUAR XJ L</option>
+                    <option value="MERCEDES BENZ S 320">MERCEDES BENZ S 320</option>
+                    <option value="BMW 520 D">BMW 520 D</option>
+                    <option value="AUDI A4">AUDI A4</option>
+                    <option value="VOLVO S60">VOLVO S60</option>
+                    <option value="JAGUAR XF">JAGUAR XF</option>
+                    <option value="AUDI A6">AUDI A6</option>
+                    <option value="MERCEDES BENZ E 250 / 220 CDI">MERCEDES BENZ E 250 / 220 CDI</option>
+                    <option value="MERCEDES A 180">MERCEDES A 180</option>
+                </optgroup>
+                <optgroup label="Buses">
+                    <option value="TEMPO TRAVELLER DLX 12 STR NON AC">TEMPO TRAVELLER DLX 12 STR NON AC</option>
+                    <option value="TEMPO TRAVELLER DLX 12 STR A/C">TEMPO TRAVELLER DLX 12 STR A/C</option>
+                    <option value="12 STR DLX SWARAJ MAZDA A/C">12 STR DLX SWARAJ MAZDA A/C</option>
+                    <option value="18/22/24 SEATER MINI-BUS Non-AC">18/22/24 SEATER MINI-BUS Non-AC</option>
+                    <option value="18/22/24 SEATER MINI-BUS A/C">18/22/24 SEATER MINI-BUS A/C</option>
+                    <option value="28 SEATER MINI-BUS A/C">28 SEATER MINI-BUS A/C</option>
+                    <option value="28 SEATER MINI-BUS NON-A/C">28 SEATER MINI-BUS NON-A/C</option>
+                    <option value="36/40 SEATER TATA / EICHER BUS NON-A/C">36/40 SEATER TATA / EICHER BUS NON-A/C
+                    </option>
+                    <option value="CERITA 38 STR DX A/C">CERITA 38 STR DX A/C</option>
+                    <option value="ISUZU FR 1318 40 STR A/C">ISUZU FR 1318 40 STR A/C</option>
+                    <option value="ISUZU 40 SEATER DLX A/C">ISUZU 40 SEATER DLX A/C</option>
+                    <option value="ISUZU 44 SEATER DLX A/C">ISUZU 44 SEATER DLX A/C</option>
+                    <option value="VOLVO 41/42/45 SEATER DX A/C">VOLVO 41/42/45 SEATER DX A/C</option>
+                </optgroup>
+                <optgroup label="Luxury Vans">
+                    <option value="TOYOTA COMMUTER">TOYOTA COMMUTER</option>
+                    <option value="Mercedes Benz Viano">Mercedes Benz Viano</option>
+                    <option value="RENAULT DUSTER">RENAULT DUSTER</option>
+                    <option value="NISSAN EVALIA">NISSAN EVALIA</option>
+                </optgroup>
+                <optgroup label="Corporate">
+                    <option value="SKODA OCTAVIA">SKODA OCTAVIA</option>
+                    <option value="TOYOTA COROLLA ALTIS">TOYOTA COROLLA ALTIS</option>
+                    <option value="NISSAN SUNNY">NISSAN SUNNY</option>
+                    <option value="MARUTI SUZUKI CIAZ">MARUTI SUZUKI CIAZ</option>
+                    <option value="SKODA RAPID">SKODA RAPID</option>
+                    <option value="TOYOTA ETIOS">TOYOTA ETIOS</option>
+                    <option value="HONDA CITY">HONDA CITY</option>
+                </optgroup>
+                <optgroup label="SUV">
+                    <option value="AUDI Q7">AUDI Q7</option>
+                    <option value="MERCEDES BENZ R CLASS">MERCEDES BENZ R CLASS</option>
+                    <option value="BMW X5">BMW X5</option>
+                    <option value="VOLVO XC90">VOLVO XC90</option>
+                    <option value="VOLVO XC 60">VOLVO XC 60</option>
+                    <option value="TOYOTA FORTUNER">TOYOTA FORTUNER</option>
+                    <option value="FORD ENDEAVOR">FORD ENDEAVOR</option>
+                    <option value="ISUZU MU 7"> ISUZU MU 7</option>
+                    <option value="FORD ECOSPORT">FORD ECOSPORT</option>
+                </optgroup>
+                <optgroup label="MUV / MPV">
+                    <option value="MAHINDRA XUV 500">MAHINDRA XUV 500</option>
+                    <option value="TOYOTA INNOVA">TOYOTA INNOVA</option>
+                    <option value="TATA ARIA">TATA ARIA</option>
+                    <option value="MARUTI SUZUKI ERTIGA">MARUTI SUZUKI ERTIGA</option>
+                </optgroup>
+                <optgroup label="Small Cars">
+                    <option value="MAHINDRA VERITO">MAHINDRA VERITO</option>
+                    <option value="TOYOTA ETIOS LIVA">TOYOTA ETIOS LIVA</option>
+                    <option value="FIAT PUNTO EVO">FIAT PUNTO EVO</option>
+                    <option value="FIAT PUNTO">FIAT PUNTO</option>
+                </optgroup>
+
             </select>
-            <input type="text" name="price" id="price" placeholder="Price per KM" class="input" autocomplete="off" disabled>
+            <input type="text" name="price" id="price" placeholder="Price per KM" class="input" autocomplete="off"
+                disabled>
             <input type="datetime-local" name="pickupDate" id="" placeholder="Pickup Date" class="input" required>
             <input type="datetime-local" name="DropDate" id="" placeholder="Drop Date" class="input" required>
             <input type="text" name="Pickup" id="" placeholder="Pickup Address" class="input" required>
             <input type="text" name="Drop" id="" placeholder="Drop Address" class="input" required>
-            <input type="submit" value="SUBMIT" name="submit" class="input" id="submit" >
+            <input type="submit" value="SUBMIT" name="submit" class="input" id="submit">
         </form>
     </div>
     <script src="js/form.js">
 
     </script>
 </body>
-</html> 
+
+</html>
