@@ -7,9 +7,11 @@ if (isset($_POST['submit'])) {
     $email=$_POST['Email'];   
     $pickAddress=$_POST['Pickup'];
     $dropAddress=$_POST['Drop'];
+    $car=$_POST['select'];
+    $price=$_POST['price'];
     $to='prantoshv@gmail.com';
     $subject='Form Submission';
-    $message="Name: " . $name ."\n" . "phone: " . $phone . "\n" ."Email".$email. "pickup date: " . $pickup ."\n" . "return date: " . $return . "\n" . "Pickup address:Test1 " . $pickAddress . "\n" . "drop address: " . $dropAddress;
+    $message="Name: " . $name ."\n" . "phone: " . $phone . "\n" ."Email". $email. "CAR: " . $car ."\n" .   "pickup date: " . $pickup ."\n" . "return date: " . $return . "\n" . "Pickup address:Test1 " . $pickAddress . "\n" . "drop address: " . $dropAddress;
     $headers="From" . $name;
     $headers='MIME-Version: 1.0' . "\r\n";
     $headers='Content-type : text/html; charset=iso-8859-1' . "\r\n";
