@@ -1,5 +1,5 @@
 body{
-    color: #000;
+    background-color: #000;
 }
 .cars{
     display: flex;
@@ -10,7 +10,7 @@ body{
     background-color: transparent;
     width: 256px;
     height: 200px;
-    border: 1px solid #f1f1f1;
+    border-radius: 2rem;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin: 2rem;
   }
@@ -37,6 +37,7 @@ body{
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 0.8rem;
   }
   
   /* Style the front side (fallback if image is missing) */
