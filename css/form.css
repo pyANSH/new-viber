@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-body{
+body {
     background-color: #000;
     font-family: 'Montserrat', sans-serif;
     background: url('../images/bg1.png')no-repeat center center/cover;
 }
-.viber h1{
+
+.viber h1 {
     text-align: center;
     color: white;
     border-bottom: 2px solid white;
@@ -14,42 +15,47 @@ body{
     font-size: 4rem;
     font-weight: 1000;
 }
-#logoR{
+
+#logoR {
     display: none;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     border: 2px solid white;
     margin: 3rem 30rem;
     padding: 2rem;
-    background-color: rgba(0,0,0,0.8)
+    background-color: rgba(0, 0, 0, 0.8)
 }
-form h1{
+
+form h1 {
     background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
 }
-.input{
+
+.input {
     margin-bottom: 2rem;
-        padding: 0.7rem 0;
-        background: transparent;
-        color: white;
-        text-align: center;
+    padding: 0.7rem 0;
+    background: transparent;
+    color: white;
+    text-align: center;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
-    border:2px solid transparent;
+    border: 2px solid transparent;
     border-image: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
-border-image-slice: 1;
-    border-radius:0.5rem;
+    border-image-slice: 1;
+    border-radius: 0.5rem;
     box-shadow: 0 8px 10px -8px#c9dff0;
-    
-    }
-#submit{
+
+}
+
+#submit {
     font-size: 1rem;
-   
+
     border-radius: 0.5rem;
     font-size: 1.2rem;
     border: none;
@@ -59,14 +65,15 @@ border-image-slice: 1;
     box-shadow: none;
     margin: 0 4rem;
 }
-.butt{
+
+.butt {
     margin-bottom: 2rem;
 }
 
-.butt button{
-    color: rgba(255,255,255,0.8);
-     background-color: #1a55ff;
-     
+.butt button {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #1a55ff;
+
     border-radius: 0.3rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -80,23 +87,25 @@ border-image-slice: 1;
 
 }
 
-.black{
+.black {
     color: black;
 }
 
-@media screen and (max-width:979px){
-    body{
-        background: linear-gradient(148deg, rgba(121,113,234,1) 35%, rgba(0,212,255,1) 100%);
+@media screen and (max-width:979px) {
+    body {
+        background: linear-gradient(148deg, rgba(121, 113, 234, 1) 35%, rgba(0, 212, 255, 1) 100%);
     }
-    .viber{
+
+    .viber {
         background-color: #000;
         box-shadow: 12px 6px 18px black;
         border-radius: 0.5rem;
     }
-    .viber h1{
+
+    .viber h1 {
         margin: 0;
         font-size: 2rem;
-        border:none;
+        border: none;
         background: #000;
         border-radius: 0.5rem;
         margin-bottom: 2rem;
@@ -104,24 +113,27 @@ border-image-slice: 1;
         margin-top: 2rem;
         box-shadow: 12px 6px 18px black;
         background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    display: flex;
-    align-items: center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
     }
-    #logo{
+
+    #logo {
         display: none;
     }
-    #logoR{
+
+    #logoR {
         display: block;
-        
+
     }
-    form{
+
+    form {
         margin: 0;
         background: #000;
         border-radius: 0.5rem;
         border: none;
         box-shadow: 12px 6px 18px black;
-  margin-bottom: 2rem;
+        margin-bottom: 2rem;
     }
 }
