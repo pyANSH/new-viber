@@ -84,10 +84,18 @@
                     </div>
                     <div class="nav">
                         <ul>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">CHAFFEUR DRIVES</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="Lcars.html">LUXURY CARS</a>
+                                  <a href="BV.html">BUSES AND VANS</a>
+                                  <a href="SUMU.html">SUVs AND MUVs</a>
+                                  <a href="COS.html">CORPORATE AND SMALL CARS</a>
+                                </div>
+                              </div> 
                             <li><a href="about-us.html">ABOUT US</a></li>
                             <li><a href="gallery.html">GALLERY</a></li>
-
-                        </ul>
+                            
                         <button onclick="window.location.href='form.html'" id="header-book-button">
                             BOOK NOW
                         </button>
@@ -109,6 +117,10 @@
             <li><button class="sidebar-close-button" onclick="closeMenu()">X</button></li>
             <li><a href="about-us.html">ABOUT US</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="Lcars.html">LUXURY CARS</a></li>
+            <li><a href="BV.html">BUSES AND VANS</a></li>
+           <li> <a href="SUMU.html">SUVs AND MUVs</a></li>
+            <li>  <a href="COS.html">CORPORATE AND SMALL CARS</a></li>
         </ul>
     </aside>
 
@@ -125,7 +137,7 @@
             <p>Choose from a range of categories and prices</p>
             
             <div class="explore">
-                <button>EXPLORE &#8594;</button>
+                <button onclick="window.location.href='Lcars.html'">EXPLORE &#8594;</button>
             </div>
         </div>
         
@@ -141,7 +153,7 @@
              <!-- <p>Choose from a range of categories and prices</p> -->
              
              <div class="explore">
-                 <button onclick="window.location.href='form.html'">BOOK NOW</button>
+                 <button onclick="window.location.href='Lcars.html'">BOOK NOW</button>
              </div>
          </div>
  
@@ -152,7 +164,7 @@
     <div class="fleetContent">
         <h2>Our fleet</h2>
         <p>The fleet of Ecorentals consists of the latest car models. Our cars are divided into categories such as Economy, Medium, Full size, Family, Automatic, 7seater Mini Bus, Cabrio and 9seater Mini Bus.</p>
-        <button onclick="window.location.href='cars.html'">CHECK ALL CARS</button>
+        <button onclick="window.location.href='Lcars.html'">CHECK ALL CARS</button>
     </div>
 </div>
     <div class="about">
@@ -402,7 +414,25 @@
     </script>
     
     
-
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      } 
+</script>
 
         
 
