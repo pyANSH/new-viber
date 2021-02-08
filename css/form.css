@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 body {
-    background-color: #000;
+    background: url('../images/bg2.png')no-repeat center center/cover; 
+    /* background-color: #000; */
     font-family: 'Montserrat', sans-serif;
-    background: url('../images/bg1.png')no-repeat center center/cover;
+    
 }
-
+.viber{
+     
+}
 .viber h1 {
     text-align: center;
     color: white;
@@ -38,7 +41,7 @@ form h1 {
 
 .input {
     margin-bottom: 2rem;
-    padding: 0.7rem 0;
+    padding: 0.7rem 10.5rem;
     background: transparent;
     color: white;
     text-align: center;
@@ -135,5 +138,8 @@ form h1 {
         border: none;
         box-shadow: 12px 6px 18px black;
         margin-bottom: 2rem;
+    }
+    .input{
+        padding: 0.7rem 0;
     }
 }
