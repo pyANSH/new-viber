@@ -12,6 +12,9 @@ padding-bottom: 2rem;
 .one{
     text-align: center;
 }
+.bg1{
+    background: none;
+}
 .form-a::before{
     margin: auto;
 }
