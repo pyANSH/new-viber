@@ -1,0 +1,289 @@
+@media screen and (max-device-width:979px){
+.form-a{
+padding-bottom: 2rem;
+    width: auto;
+    height: auto;
+    margin-top: 9rem;
+}
+#top-header{
+    justify-content: center;
+    display: none;
+}
+.one{
+    text-align: center;
+}
+.bg1{
+    background: none;
+}
+.form-a::before{
+    margin: auto;
+}
+.banner{
+    background-image: none;
+}
+#top-header a{
+    font-size: 2rem;
+}
+.nav ul li a{
+    font-size: 2rem;
+}
+.nav button{
+    font-size: 2rem;
+}
+.navHeading h3{
+    font-size: 5rem;
+}
+.navHeading img{
+    width: 100%;
+}
+.bannerPara{
+    display: none;
+}
+.radios{
+    font-size: 2.8rem;
+    flex-direction: column;
+    align-items: center;
+}
+.form1{
+    font-size: 2.5rem;
+}
+.form-a button{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#select-1{
+font-size: 2rem;
+}
+#select-1 option{
+font-size: 1rem;
+}
+#select-2{
+    font-size: 2rem;
+    }
+    #select-2 option{
+    font-size: 1rem;
+    }
+#pickup-date-time{
+    padding: 0.5rem 1rem;
+}
+#return-date-time{
+    padding: 0.5rem 1rem;
+}
+.carName ul{
+    flex-direction: column;
+}
+.carName ul li a{
+    line-height: 4rem;
+    font-size: 2.5rem;
+}
+.cars h2{
+    text-align: center;
+    margin: 0;
+    font-size: 4.5rem;
+    padding-bottom: 3rem;
+}
+.line{
+    padding: 4rem 0 0 0;
+}
+.social h2{
+    text-align: center;
+margin: auto;
+font-size:4.5rem;;
+}
+.socialLogo{
+    padding:3rem 0 0 0 ;
+}
+.socialLogo ul{
+    justify-content: center;
+}
+.socialLogo ul li{
+    margin: 2rem 6rem;
+}
+.socialLogo ul li img{
+    width: 411%;
+}
+.official h2{
+    font-size: 4.5rem;
+}
+.officialContent ul{
+    justify-content: flex-end;
+    margin-left: 10rem;
+}
+.officialContent ul li{
+    width: 33%;
+    margin-bottom: 2rem;
+}
+.discoverLinks{
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.discoverLinks h2{
+    font-size:4.5rem;
+}
+.discoverLinks ul{
+    padding: 2rem 0;
+font-size: 2.7rem;
+}
+.nav3{
+    flex-direction: column;
+    font-size: 2rem;
+}
+.policy{
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.copyright{
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.nav2 .nav{
+    display: none;
+}
+.nav2{
+    justify-content: normal;
+ margin-left: 3rem;
+ padding-bottom: 6rem;
+}
+.navHeading{
+    margin: 0 19rem;
+}
+.brand{
+    display: block;
+}
+.brand button{
+    color: white;
+}
+.sidebar{
+    background-color: black;
+}
+.sidebar ul li{
+    list-style: none;
+padding: 2rem 4rem;
+}
+.sidebar ul li a{
+   
+    background: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+    text-decoration: none;
+}
+.sidebar-close-button{
+    font-size: 3rem;
+   color: white;
+}
+
+.boons{
+    width: 131%;
+    flex-direction: column;
+    display: none;
+}
+.boonsContent img{
+    width: 20%;
+}
+.boonsContent h3{
+    font-size: 3rem;
+}
+.bookRental a{
+    font-size: 2.2rem;
+    border: 2px solid white;
+}
+/* about us */
+.fleet{
+    width: 131%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.fleet img{
+float: none;
+width: 70%;
+display: flex;
+margin: auto;
+}
+.fleetContent h2{
+    font-size: 5rem;
+}
+.fleetContent p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.fleetContent button{
+    font-size: 3rem;
+}
+.about{
+    width: 131%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.about img{
+float: none;
+width: 70%;
+display: flex;
+margin: auto;
+}
+.aboutContent h2{
+    font-size: 5rem;
+}
+.aboutContent p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.aboutContent button{
+    font-size: 3rem;
+}
+.foot{
+    margin: 0;
+}
+/* slider */
+.gtco-testimonials .center h5{
+    font-size: 3rem;
+}
+.gtco-testimonials .center h5 span{
+    font-size: 2.2rem;
+}
+.gtco-testimonials .card p{
+    font-size: 1.7rem;
+}
+.gtco-testimonials h2{
+    font-size: 7rem;
+}
+
+.mockup1{
+    width: 131%;
+}
+
+footer{
+    width: 131%;
+}
+.responsive{
+    display: block  ;
+    position: relative;
+    right: -11rem;
+    border:0.5rem solid transparent;
+    border-image: linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+border-image-slice: 1;
+}
+.responsive h1{
+    margin-left: 1.7rem;
+    text-align: center;
+}
+.explore{
+    margin-top: 5rem;
+   position: relative;
+   right: -0.8rem;
+    
+}
+.explore button{
+    display: flex;
+    margin: auto;
+    font-size: 3rem;
+}
+footer{
+    margin-top:4rem;
+}
+}

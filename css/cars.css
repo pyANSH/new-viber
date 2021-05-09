@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  background-color: #589dcb;
+  background-image: linear-gradient(
+    135deg,
+    #589dcb 0%,
+    #5b5fa4 50%,
+    #7b2947 100%
+  );
+
+  font-family: "Montserrat", sans-serif;
+}
+.heading {
+  background-color: #000;
+  padding: 0.3rem;
+  margin: 0 4rem 1rem 4rem;
+  border-radius: 0.5rem;
+}
+.heading h1 {
+  background: linear-gradient(
+    270.97deg,
+    #ffe580 -21.36%,
+    #ff7571 -2.45%,
+    #ea5dad 26.84%,
+    #c2a0fd 64.15%,
+    #3bf0e4 108.29%,
+    #b2f4b6 159.03%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 256px;
+  height: 200px;
+  border-radius: 2rem;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: 2rem;
+  margin-bottom: 12rem;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 110%;
+  height: 185%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 0.8rem;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #000;
+  color: white;
+}
+.flip-card-back button{
+  color: rgba(255, 255, 255, 0.8);
+    background-color: #1a55ff;
+
+    border-radius: 0.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0.5px solid #062686;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #000;
+  color: white;
+  transform: rotateY(180deg);
+}
