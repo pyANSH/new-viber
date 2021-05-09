@@ -2,14 +2,23 @@
     box-sizing: border-box;
 }
 body {
+
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 150vh;
     font-family: 'Montserrat', sans-serif;
+    background-color: #589dcb;
+    background-image: linear-gradient(
+        135deg,
+        #589dcb 0%,
+        #5b5fa4 50%,
+        #7b2947 100%
+    );
 }
+
 .wrapper {
     display: flex;
     flex-flow: row wrap;
