@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 .container{
-    border: top 50px; ;
+    border: top 50px; 
+    
 }
 body {
 
@@ -24,9 +25,10 @@ body {
 
 .wrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
+/* cards */
 .card {
     width: 420px;
     height: 340px;
@@ -230,9 +232,11 @@ body {
     background: #355cc9;
 }
 
+/* cards end */
+
 span.b {
     display: inline-block;
-    width: 500rem;
+    width: 100rem;
     height: 100px;
     padding: 5px;
     text-align: center;
