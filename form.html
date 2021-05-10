@@ -23,37 +23,36 @@
     <form id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
-            <li class="active">Account Setup</li>
-            <li>Social Profiles</li>
-            <li>Personal Details</li>
+            <li class="active">Personal Details</li>
+            <li></li>
+            <li>Choose Your Location</li>
         </ul>
         <!-- fieldsets -->
         <fieldset>
-            <h2 class="fs-title">Create your account</h2>
-            <h3 class="fs-subtitle">This is step 1</h3>
+            <h2 class="fs-title">Fill in your Details & Choose Your Ride</h2>
+            <h3 class="fs-subtitle">This is Step 1</h3>
             <input type="text" name="email" placeholder="Email" />
-            <input type="password" name="pass" placeholder="Password" />
-            <input type="password" name="cpass" placeholder="Confirm Password" />
+            <input type="text" name="pass" placeholder="Phone Number" />
+            <input type="text" name="cpass" placeholder="Address" />
+            <input type="text" name="cpass" placeholder="Select Your Type" />
             <input type="button" name="next" class="next action-button" value="Next" />
         </fieldset>
         <fieldset>
-            <h2 class="fs-title">Social Profiles</h2>
-            <h3 class="fs-subtitle">Your presence on the social network</h3>
-            <input type="text" name="twitter" placeholder="Twitter" />
-            <input type="text" name="facebook" placeholder="Facebook" />
-            <input type="text" name="gplus" placeholder="Google Plus" />
+            <h2 class="fs-title">Select Date and Time</h2>
+            <h3 class="fs-subtitle">Enter Time and Date as per your convienience.</h3>
+            <input type="text" name="twitter" placeholder="Date time Calendar" />
+            <input type="text" name="facebook" placeholder="Date Time Calender" />
             <input type="button" name="previous" class="previous action-button" value="Previous" />
             <input type="button" name="next" class="next action-button" value="Next" />
         </fieldset>
         <fieldset>
-            <h2 class="fs-title">Personal Details</h2>
-            <h3 class="fs-subtitle">We will never sell it</h3>
-            <input type="text" name="fname" placeholder="First Name" />
-            <input type="text" name="lname" placeholder="Last Name" />
-            <input type="text" name="phone" placeholder="Phone" />
-            <textarea name="address" placeholder="Address"></textarea>
+            <h2 class="fs-title">Select Your Location</h2>
+            <h3 class="fs-subtitle">Enter Pickup and Drop Location</h3>
+            <input type="text" name="pname" placeholder="Pickup Location" />
+            <input type="text" name="dname" placeholder="Drop Location" />
             <input type="button" name="previous" class="previous action-button" value="Previous" />
             <input type="submit" name="submit" class="submit action-button" value="Submit" />
+            <h3 class="fs-subtitle">Thank You for choosing us. We promise you a happy and safe journey!</h3>
         </fieldset>
     </form>
 
