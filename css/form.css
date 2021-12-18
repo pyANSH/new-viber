@@ -2,7 +2,7 @@
 
 body {
     background: url('../images/bg2.png')no-repeat center center/cover; 
-    /* background-color: #000; */
+    background-color: #000;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -94,6 +94,7 @@ form h1 {
     color: black;
 }
 
+
 @media screen and (max-width:979px) {
     body {
         background: linear-gradient(148deg, rgba(121, 113, 234, 1) 35%, rgba(0, 212, 255, 1) 100%);
@@ -143,3 +144,4 @@ form h1 {
         padding: 0.7rem 0;
     }
 }
+
